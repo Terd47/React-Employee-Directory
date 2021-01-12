@@ -1,0 +1,11 @@
+#appName{
+    padding: 5px;
+    text-align: left;
+    background-color: #495057;
+}
+.brand{
+    color: #ced4da;
+}
+.search{
+    float: right !important;
+}
