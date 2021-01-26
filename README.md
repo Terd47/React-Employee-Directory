@@ -4,7 +4,7 @@ This application enables the user (company director or management) to view non s
 ## Business Context
 An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-[live Site here]()
+[live Site here](https://terd47.github.io/React-Employee-Directory/)
 
 [Repository Link](https://github.com/Terd47/React-Employee-Directory) 
 
