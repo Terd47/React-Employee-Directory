@@ -68,24 +68,18 @@ class Employees extends Component {
 
       <div>
       <Title backgroundImage="https://i.ibb.co/PjhVS7y/Dasboard.png"  >
-        <h1>Lookup Employee</h1>        
+        <h1>Easy Employee Lookup</h1>        
       </Title>
       <Container style={{ marginTop: 30 }}>
         <Row>
-          <Col size="md-9">        
-            <div>
-              <Container >  
-                <Results results={this.state.filterResults} />
-              </Container>
-            </div>
-          </Col>
-          <Col size="md-3">        
+          <Col size="md-12">        
             <div>
               <Container >             
                 <SearchForm                  
                   handleInputChange={this.handleInputChange}
                   sortBy={this.sortBy}
                 />
+                <Results results={this.state.filterResults} />
               </Container>
             </div>
           </Col>
