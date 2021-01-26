@@ -67,7 +67,7 @@ class Employees extends Component {
     return (
 
       <div>
-      <Title backgroundImage="https://i.ibb.co/PjhVS7y/Dasboard.png"  >
+      <Title  >
         <h1>Easy Employee Lookup</h1>        
       </Title>
       <Container style={{ marginTop: 30 }}>

@@ -5,7 +5,7 @@ import Col from "../Col";
 
 function SearchForm(props) { 
     
-  const style={ width: "100%", height: "auto",overflow: "hidden" };
+  const style={ width: "100%"};
   return (
     
     <form className="search" >
