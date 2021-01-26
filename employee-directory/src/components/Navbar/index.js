@@ -1,14 +1,12 @@
-import React from 'react';
+import React  from 'react';
 import './style.css';
-import SearchForm from '../../components/SearchForm/SearchForm';
 
 function Navbar () {
     return (
-        <nav classname="navbar navbar-expand-lg navbar-dark" id="appName">
-            <a className="navbar-brand brand" href="/">
+        <nav className="navbar navbar-expand-lg navbar-dark" id="appName">
+            <a className="navbar-brand brand display-4 lead" href="/">
                 React Employee
             </a>
-            <SearchForm />
         </nav>
     )
 }

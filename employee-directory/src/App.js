@@ -1,14 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import Employee from './pages/employee';
 
 function App() {
+
   return (
-    <div className="App">
+    <div>
       <Navbar />
+      <Employee />
     </div>
-  );
+  )
 }
 
 export default App;
